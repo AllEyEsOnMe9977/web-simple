@@ -1,0 +1,131 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#ButtonContainer {
+    display: flex;
+    flex-direction: row; /* Align items vertically */
+    align-items: center;
+}
+
+.imgBtns {
+    display: block;
+    padding: 0;
+    border-radius: 100%;
+}
+#Rock {
+    background: url("visuals/Rock.png");
+
+}
+
+#Paper {
+    background: url("visuals/Paper.png");
+}
+
+#Scissor {
+    background: url("visuals/scissor.png");
+}
+
+.imgBtns:hover {
+    color: aliceblue;
+    cursor: pointer;
+}
+#PlayerResult{
+    display: block;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    background-color: rgb(118, 237, 174);
+    font-weight: bold;
+    font-style: italic;
+    font-family: fantasy;
+    position: fixed;
+    color: rgb(16, 63, 87);
+    border-radius: 1em;
+    padding: 5px;
+    left: 25%;
+    bottom: 43%;
+    font-size: 1.5em;
+}
+#ComputerResult{
+    display: block;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    font-weight: bold;
+    background-color: rgb(200, 77, 77);
+    font-weight: bold;
+    font-style: italic;
+    font-family: fantasy;
+    position: fixed;
+    color: rgb(80, 81, 12);
+    border-radius: 1em;
+    padding: 5px;
+    left: 25%;
+    bottom: 35%;
+    font-size: 1.5em;
+}
+#PlayerScore{
+    display: block;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    color: rgb(53, 190, 49);
+    background-color: hsl(268, 41%, 50%);
+    font-weight: bold;
+    position: fixed;
+    border-radius: 1em;
+    padding: 5px;
+    right: 25%;
+    bottom: 43%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+#ComputerScore{
+    display: block;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    color: rgb(73, 11, 11);
+    background-color: hsl(268, 41%, 50%);
+    font-weight: bold;
+    position: fixed;
+    border-radius: 1.5em;
+    padding: 5px;
+    right: 25%;
+    bottom: 35%;
+    font-size: 1.5em;
+}
+#ResetBtn{
+    display: flexbox;
+    position: fixed;
+    background-color: chocolate;
+    color: black;
+    font-size: 1.5em;
+    border-radius: 1em;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    bottom: 25%;
+    left: 15%;
+    cursor: pointer;
+}
+#ResetBtn:hover{
+    background-color: aliceblue;
+}
+#Result {
+    display: block;
+    position: fixed;
+    font-size: 2.5em;
+    font-style: oblique;
+    font-weight: bold;
+    top: 10%;
+    left: 20%;
+    color: aliceblue;
+    transition: 30ms;
+}

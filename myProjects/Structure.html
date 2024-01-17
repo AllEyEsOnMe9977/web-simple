@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamePage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="buttonContainer">
+        <button id="Rock" class="imgBtns" onclick="Choices('Rock')"><img src="visuals/Rock.png" alt="rock"></button>
+        <button id="Paper" class="imgBtns" onclick="Choices('Paper')"><img src="visuals/Paper.png" alt="paper"></button>
+        <button id="Scissor" class="imgBtns" onclick="Choices('Scissor')"><img src="visuals/scissor.png" alt="scissor"></button>
+    </div>
+        <div id="PlayerResult"><p>Player: </p></div>
+        <div id="ComputerResult"><p>Computer: </p></div>
+        <div id="PlayerScore"><p>Player Score: 0</p><br></div>
+        <div id="ComputerScore"><p>Computer Score: 0</p></div>
+        <div id="Result"><p id="result"></p></div>
+    <Button id="ResetBtn" onclick="ResetScores()">Reset</Button>
+<script src="script.js"></script>
+</body>
+</html>
